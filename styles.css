@@ -67,7 +67,7 @@ main {
     font-size: calc(2px + 1.4vw);
     width: 80%;
     text-align: center;
-    padding: 7%;
+    padding: 2% 5%;
 
     }
 
@@ -84,6 +84,12 @@ h3{
 
 }
 h6{
+    color: #FCFAF5;
+    font-size: calc(2px + 1.5vw);
+
+}
+
+.Credits-text{
     color: #FCFAF5;
     font-size: calc(2px + 1.5vw);
 
@@ -138,14 +144,20 @@ li{
     margin-left: 2%;
     margin-right: 2%;
     font-size: calc(4px + 1.2vw);
-    padding: 2% 3%;
+    padding: 1% 2%;
+    background-color: #D45B5B;
+    border-color: #FCFAF5;
+    border-width: 4px;
+    border-style: ridge;
+    color: #FCFAF5;
+    font-family: "Bauhaus 93" , sans-serif;
 
 }
 
 
 #ACPhoto{
-    height: 65%;
-    width: 50%;
+    height: 57%;
+    width: 35%;
     margin: 3% 0;
 }
 
@@ -163,14 +175,14 @@ li{
 }
 
 #CNPhoto{
-    height: 30%;
+    height: 35%;
     width: 60%;
     margin: 2% 0;
 }
 
 #SkillsPhoto{
-    height: 30%;
-    width: 30%;
+    height: 25%;
+    width: 25%;
     margin: 2% 0;
 }
 
@@ -181,7 +193,7 @@ li{
 }
 
 #calcPhoto{
-    height: 31%;
+    height: 28%;
     width: 25%;
     margin: 3% 0;
 }
@@ -259,13 +271,13 @@ li{
 
     }
     #calcPhoto{
-        height: 32%;
-        width: 35%;
+        height: 27%;
+        width: 30%;
 
     }
     #SkillsPhoto{
-        height: 30%;
-        width: 36%;
+        height: 27%;
+        width: 33%;
     }
 
     .calc_container button{
