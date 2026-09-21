@@ -1,0 +1,276 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+
+    width: 85%;
+    margin: 0 auto;
+    }
+
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150%;
+    padding: 0;
+
+}
+
+nav {
+    background-color: #FFD8E4;
+    padding: 1% 2%;
+    width: 20%;
+
+
+}
+
+nav ul {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav li {
+    margin: 5% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #85A070;
+    color: #FCFAF5;
+    width: 12vw;
+    height: 11vh;
+
+
+}
+nav a {
+    color: #FCFAF5;
+    font-family: "Arial Black", sans-serif;
+    font-size: calc(2px + 1.2vw);
+    text-decoration: none;
+
+
+}
+header{
+    background-color: #D45B5B;
+    padding: 1% 1% 1% 7%;
+    margin: 0;
+    height: 10%
+
+}
+main {
+    background-color: #FCFAF5;
+    font-size: calc(2px + 1.4vw);
+    width: 80%;
+    text-align: center;
+    padding: 7%;
+
+    }
+
+
+
+h1{
+    color: #FCFAF5;
+
+
+}
+h3{
+    color: #FCFAF5;
+
+
+}
+h6{
+    color: #FCFAF5;
+    font-size: calc(2px + 1.5vw);
+
+}
+
+h5{
+    color: #4A4A4A;
+    font-size: calc(2px + 1.5vw);
+    margin-top: 2%;
+    margin-bottom:2%;
+
+
+
+
+}
+p {
+    margin: 1%;
+    color: #4A4A4A;
+
+}
+
+footer{
+    padding-left: 2%;
+    padding-top: 2%;
+    height: 10vh;
+    background-color: #D45B5B;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li{
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    list-style: none;
+
+
+}
+
+.calc_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 7%
+
+}
+
+.calc_container button {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: calc(4px + 1.2vw);
+    padding: 2% 3%;
+
+}
+
+
+#ACPhoto{
+    height: 65%;
+    width: 50%;
+    margin: 3% 0;
+}
+
+#BUPhoto{
+    height: 30%;
+    width: 35%;
+
+
+}
+
+#NWECHSPhoto{
+    height: 30%;
+    width: 35%;
+    margin: 2% 0;
+}
+
+#CNPhoto{
+    height: 30%;
+    width: 60%;
+    margin: 2% 0;
+}
+
+#SkillsPhoto{
+    height: 30%;
+    width: 30%;
+    margin: 2% 0;
+}
+
+#AchPhoto{
+    height: 37%;
+    width: 25%;
+    margin: 2% 0;
+}
+
+#calcPhoto{
+    height: 31%;
+    width: 25%;
+    margin: 3% 0;
+}
+
+#calc-form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.labels{
+    margin: 4% 0;
+    font-family: "Bauhaus 93", Playbill, sans-serif;
+    font-size: calc(8px + 1.5vw);
+
+}
+
+
+@media screen and (max-width: 800px){
+
+    .wrapper{
+        width: 90%;
+    }
+
+    .content{
+        flex-direction: column;
+
+    }
+
+    footer{
+        height: 5vh;
+    }
+
+    nav {
+        width: 100%;
+        height: 10vh
+    }
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    nav li{
+        margin: 2% 0.5%;
+        height: 6vh;
+        width: 20vw;
+        padding: 1%;
+    }
+    nav a{
+        font-size: calc(3px + 1.2vh);
+    }
+    main{
+        width: 100%;
+        font-size: calc(5px + 1.2vh);
+
+    }
+
+
+
+    h5{
+        font-size: calc(7px + 1.2vh);
+    }
+
+
+
+    #ACPhoto{
+        height: 60%;
+        width: 55%;
+
+    }
+
+    #AchPhoto{
+        height: 40%;
+        width: 30%;
+
+    }
+    #calcPhoto{
+        height: 32%;
+        width: 35%;
+
+    }
+    #SkillsPhoto{
+        height: 30%;
+        width: 36%;
+    }
+
+    .calc_container button{
+        font-size: calc(8px + 1.5vw);
+    }
+
+
+}
