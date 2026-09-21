@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Projects | AC Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+    <body>
+    <div class="wrapper">
+    <header>
+        <h1>Austin Armando Camanez</h1>
+        <h3>My 2026 Online Resume</h3>
+    </header>
+    <!-- Navigation -->
+        <div class="content">
+    <nav>
+        <!-- put the internal web targets here -->
+        <ul>
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="education.html">Education</a> </li>
+            <li> <a href="work_experience.html">Work Experience</a> </li>
+            <li> <a href="achievements.html">Achievements</a> </li>
+            <li> <a href="skills.html">Skills</a> </li>
+            <li> <a href="projects.html">Projects</a> </li>
+        </ul>
+
+    </nav>
+
+
+    <!-- Main Section -->
+    <main>
+        <h5> Calculator Project !</h5>
+
+        <img src="hand-drawn-calculator-illustration-png.webp" alt="Clip Art of a hand drawn calculator" id="calcPhoto">
+
+        <div class="calc_container" id="calc-inputs">
+            <form id = 'calc-form'>
+                <label for="num1" class="labels"> Num1</label> <input id="num1">
+
+                <label for="num2" class="labels"> Num2</label> <input id="num2">
+            </form>
+
+        </div>
+
+        <div class="calc_container">
+            <button onclick = "doAdd()">+</button>
+            <button onclick = "doSubtract()">-</button>
+            <button onclick = "doMultiply()">*</button>
+            <button onclick = "doDivide()">/</button>
+            <button onclick = "doPower()">**</button>
+            <button onclick = "doClear()">C</button>
+        </div>
+
+        <div class="calc_container">
+            <label for="output" class="labels"> Output: </label> <h4 id="output"> </h4>
+        </div>
+
+
+
+    </main>
+        </div>
+    <!-- Footer for copyright -->
+    <footer>
+        <h6>All Rights Reserved by Austin Camanez <a href=""> Credits </a> &copy</h6>
+
+
+
+    </footer>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
