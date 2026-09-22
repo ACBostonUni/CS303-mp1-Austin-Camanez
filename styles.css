@@ -52,8 +52,6 @@ nav a {
     font-family: "Arial Black", sans-serif;
     font-size: calc(2px + 1.2vw);
     text-decoration: none;
-
-
 }
 header{
     background-color: #D45B5B;
@@ -97,7 +95,7 @@ h6{
 
 h5{
     color: #4A4A4A;
-    font-size: calc(2px + 1.5vw);
+    font-size: calc(3px + 1.5vw);
     margin-top: 2%;
     margin-bottom:2%;
 
@@ -127,6 +125,7 @@ li{
     margin-top: 2%;
     margin-bottom: 2%;
     list-style: none;
+    color: #4A4A4A;
 
 
 }
@@ -144,20 +143,24 @@ li{
     margin-left: 2%;
     margin-right: 2%;
     font-size: calc(4px + 1.2vw);
-    padding: 1% 2%;
+    padding: 1% 2.7%;
+    border-radius: 50%;
     background-color: #D45B5B;
     border-color: #FCFAF5;
-    border-width: 4px;
+    border-width: 6px;
     border-style: ridge;
     color: #FCFAF5;
     font-family: "Bauhaus 93" , sans-serif;
 
 }
 
+
+
 .inputBox{
-    width: 60%;
+    width: 70%;
     height: 11vh;
-    margin-left: 20%;
+    margin-left: 7%;
+    margin-right: 7%;
     text-align: center;
     font-size: calc(6px + 1.2vw);
     border-color: #D45B5B;
@@ -221,21 +224,22 @@ li{
 }
 
 #calcPhoto{
-    height: 26%;
+    height: 27%;
     width: 25%;
     margin: 3% 0;
 }
 
 #calc-form{
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    align-items: center;
 }
 
 .labels{
     margin: 4% 0;
     font-family: "Bauhaus 93", Playbill, sans-serif;
     font-size: calc(8px + 1.5vw);
+
 
 }
 
@@ -275,6 +279,7 @@ li{
     }
     main{
         width: 100%;
+        height: 100%;
         font-size: calc(5px + 1.2vh);
 
     }
@@ -282,7 +287,7 @@ li{
 
 
     h5{
-        font-size: calc(7px + 1.2vh);
+        font-size: calc(9px + 1.2vh);
     }
 
 
@@ -299,8 +304,8 @@ li{
 
     }
     #calcPhoto{
-        height: 27%;
-        width: 30%;
+        height: 40%;
+        width: 27%;
 
     }
     #SkillsPhoto{
@@ -313,17 +318,21 @@ li{
     }
 
     .inputBox{
-        width: 40%;
+        width: 60%;
         height: 7vh;
-        margin-left: 30%;
+        margin-left: 9%;
         font-size: calc(7px + 1.8vw);
     }
 
     #outputBox{
-
-
         padding-top: 3%;
         height: 8vh;
         font-size: calc(12px + 1.7vw);
+    }
+
+
+
+    #calc-form{
+        flex-direction: column;
     }
 }
