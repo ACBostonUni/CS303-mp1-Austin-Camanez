@@ -19,8 +19,8 @@
 }
 
 nav {
-    background-color: #FFD8E4;
-    padding: 1% 2%;
+    background: linear-gradient(to right, #F5EBEB 95%, #FCFAF5 100%); /*I googled the syntax to make a gradient transition between nav and main*/
+    padding: 1% 2%;                                                     /* I chose 95% because I like the sharp gradient effect*/
     width: 20%;
 
 
